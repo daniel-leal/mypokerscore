@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "19554884117",
+    "firebase_url": "https://mypokerscore.firebaseio.com",
+    "project_id": "mypokerscore",
+    "storage_bucket": "mypokerscore.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19554884117:android:dae0a1cb59243613",
+        "android_client_info": {
+          "package_name": "sistemas.dwm.com.br.mypokerscore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "19554884117-krv438fg7cirqgfuq5e0b18mgm9v696s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sistemas.dwm.com.br.mypokerscore",
+            "certificate_hash": "e9fa5510add4ca3f30dd8a95762ce7bc3695e640"
+          }
+        },
+        {
+          "client_id": "19554884117-f3mqtj29rjlfsjv2t54esuukhor8s4rk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNp8jSb7YxPp_HalGiyB7CiFpjGeXfmEE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "19554884117-f3mqtj29rjlfsjv2t54esuukhor8s4rk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
