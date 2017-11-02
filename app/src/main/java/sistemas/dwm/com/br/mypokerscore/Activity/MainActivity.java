@@ -1,4 +1,4 @@
-package sistemas.dwm.com.br.mypokerscore;
+package sistemas.dwm.com.br.mypokerscore.Activity;
 
 import android.app.FragmentManager;
 import android.content.Intent;
@@ -19,6 +19,10 @@ import android.widget.TextView;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+
+import sistemas.dwm.com.br.mypokerscore.Fragment.ProfileFragment;
+import sistemas.dwm.com.br.mypokerscore.R;
+import sistemas.dwm.com.br.mypokerscore.Fragment.ScoresFragment;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {

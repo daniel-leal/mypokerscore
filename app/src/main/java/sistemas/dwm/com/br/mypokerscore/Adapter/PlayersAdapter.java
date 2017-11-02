@@ -1,4 +1,4 @@
-package sistemas.dwm.com.br.mypokerscore;
+package sistemas.dwm.com.br.mypokerscore.Adapter;
 
 import android.content.res.Resources;
 import android.support.v7.widget.RecyclerView;
@@ -8,6 +8,9 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import java.util.List;
+
+import sistemas.dwm.com.br.mypokerscore.Model.Player;
+import sistemas.dwm.com.br.mypokerscore.R;
 
 /**
  * Created by Daniel Leal on 31/10/2017.

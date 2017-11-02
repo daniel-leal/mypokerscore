@@ -1,4 +1,4 @@
-package sistemas.dwm.com.br.mypokerscore;
+package sistemas.dwm.com.br.mypokerscore.Fragment;
 
 import android.app.Fragment;
 import android.content.Intent;
@@ -17,6 +17,10 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+
+import sistemas.dwm.com.br.mypokerscore.Activity.LoginActivity;
+import sistemas.dwm.com.br.mypokerscore.R;
+import sistemas.dwm.com.br.mypokerscore.Activity.SignupActivity;
 
 public class ProfileFragment extends Fragment {
 

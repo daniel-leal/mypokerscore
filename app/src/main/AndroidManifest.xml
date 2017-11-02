@@ -3,6 +3,8 @@
     package="sistemas.dwm.com.br.mypokerscore">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-sdk android:maxSdkVersion="21" />
+
 
     <application
         android:allowBackup="true"
@@ -11,19 +13,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SignupActivity" />
-        <activity android:name=".LoginActivity">
+        <activity android:name=".Activity.SignupActivity" />
+        <activity android:name=".Activity.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ResetPasswordActivity" />
-        <activity android:name=".ProfileFragment" />
-        <activity android:name=".ListRankActivity" />
+        <activity android:name=".Activity.ResetPasswordActivity" />
+        <activity android:name=".Activity.ListRankActivity" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Activity.MainActivity"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>

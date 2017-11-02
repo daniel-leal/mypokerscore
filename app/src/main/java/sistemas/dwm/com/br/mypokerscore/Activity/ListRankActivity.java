@@ -1,4 +1,4 @@
-package sistemas.dwm.com.br.mypokerscore;
+package sistemas.dwm.com.br.mypokerscore.Activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -8,6 +8,11 @@ import android.support.v7.widget.RecyclerView;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import sistemas.dwm.com.br.mypokerscore.Pattern.DividerItemDecoration;
+import sistemas.dwm.com.br.mypokerscore.Model.Player;
+import sistemas.dwm.com.br.mypokerscore.Adapter.PlayersAdapter;
+import sistemas.dwm.com.br.mypokerscore.R;
 
 public class ListRankActivity extends AppCompatActivity {
     private List<Player> playerList = new ArrayList<>();

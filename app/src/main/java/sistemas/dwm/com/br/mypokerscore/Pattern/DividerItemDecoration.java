@@ -1,4 +1,4 @@
-package sistemas.dwm.com.br.mypokerscore;
+package sistemas.dwm.com.br.mypokerscore.Pattern;
 
 /**
  * Created by Daniel Leal on 31/10/2017.

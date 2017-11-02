@@ -1,4 +1,4 @@
-package sistemas.dwm.com.br.mypokerscore;
+package sistemas.dwm.com.br.mypokerscore.Model;
 
 /**
  * Created by Daniel Leal on 31/10/2017.
@@ -7,6 +7,9 @@ public class Player {
     private String name;
     private double score;
     private double recompra;
+
+    public Player() {
+    }
 
     public Player(String name, double score, double recompra) {
         this.name = name;
