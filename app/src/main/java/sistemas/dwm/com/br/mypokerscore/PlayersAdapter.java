@@ -1,5 +1,6 @@
 package sistemas.dwm.com.br.mypokerscore;
 
+import android.content.res.Resources;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -16,12 +17,13 @@ public class PlayersAdapter extends RecyclerView.Adapter<PlayersAdapter.MyViewHo
     private List<Player> playerList;
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
-        public TextView score, name;
+        public TextView score, name, recompra;
 
         public MyViewHolder(View view) {
             super(view);
-            score = (TextView) view.findViewById(R.id.score);
-            name = (TextView) view.findViewById(R.id.name);
+            score = view.findViewById(R.id.score);
+            recompra = view.findViewById(R.id.recompra);
+            name = view.findViewById(R.id.name);
         }
     }
 
@@ -40,8 +42,12 @@ public class PlayersAdapter extends RecyclerView.Adapter<PlayersAdapter.MyViewHo
     @Override
     public void onBindViewHolder(MyViewHolder holder, int position) {
         Player player = playerList.get(position);
+
+        Resources res = holder.itemView.getResources();
+
         holder.name.setText(player.getName());
-        holder.score.setText(player.getScore());
+        holder.score.setText(res.getString(R.string.score_msg, String.valueOf(player.getScore())));
+        holder.recompra.setText(res.getString(R.string.recompra_msg, String.valueOf(player.getRecompra())));
     }
 
     @Override

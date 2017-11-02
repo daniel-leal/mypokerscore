@@ -37,4 +37,10 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hint_display_name">Name</string>
+
+
+    <string name="score_msg">Score: %1$s</string>
+    <string name="recompra_msg">Recompra: %1$s</string>
 </resources>
